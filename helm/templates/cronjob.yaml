@@ -1,0 +1,21 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: scaleway-backup
+spec:
+  schedule: "0 2 * * *"
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: scaleway-backup
+            image: hekonsek/scaleway-backup:0.0
+            env:
+              - name: TOKEN
+                value: {{ .Values.token }}
+              - name: ORGANIZATION
+                value: {{ .Values.organization }}
+              - name: VOLUMES
+                value: {{ .Values.volumes }}
+          restartPolicy: OnFailure

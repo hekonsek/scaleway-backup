@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: scaleway-backup
-            image: hekonsek/scaleway-backup:0.0
+            image: hekonsek/scaleway-backup:0.1
             env:
               - name: TOKEN
                 value: {{ .Values.token }}

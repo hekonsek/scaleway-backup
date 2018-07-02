@@ -17,7 +17,6 @@ default setup holds backup copies of your volumes from last ten days.
 The easiest way to install ScalewayBackup is to execute Helm chart provided with the project:
 
     git clone git@github.com:hekonsek/scaleway-backup.git
-    cd scaleway-backup
-    helm upgrade scaleway-backup helm --install \
+    helm upgrade scaleway-backup scaleway-backup/helm --install \
      --set token=myScalewayToken --set organization=myScalewayOrganizationId \
      --set 'volumes=volume1_id\,volume2_id'

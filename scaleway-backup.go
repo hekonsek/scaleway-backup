@@ -18,7 +18,7 @@ func main() {
 	organization := readConfig("ORGANIZATION")
 	volumes := strings.Split(readConfig("VOLUMES"), ",")
 
-	backupsNumberConfig := readConfigOrDefault("BACKUPS_NUMBER", "10")
+	backupsNumberConfig := readConfigOrDefault("BACKUPS_NUMBER", "2")
 	backupsNumber, err := strconv.Atoi(backupsNumberConfig)
 	if err != nil {
 		panic(err)

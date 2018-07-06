@@ -19,5 +19,5 @@ spec:
               - name: VOLUMES
                 value: {{ .Values.volumes }}
               - name: BACKUPS_NUMBER
-                value: {{ .Values.backupsNumber | default 2 }}
+                value: {{ .Values.backupsNumber | default "2" }}
           restartPolicy: OnFailure

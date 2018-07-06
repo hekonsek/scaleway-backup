@@ -2,14 +2,14 @@ apiVersion: v1
 entries:
   scaleway-backup:
   - apiVersion: v1
-    created: 2018-07-06T11:21:41.479775786+02:00
-    digest: f537e1ba648a570b34714cf5eef34c56097dc4d112eebe1a7344b9d92a2d4b29
+    created: 2018-07-06T11:32:54.725922543+02:00
+    digest: d7bb718733d6c46e3235f42014b59abd78d8c9366ce0e87373774b3a310d921f
     name: scaleway-backup
     urls:
     - http://hekonsek.github.io/scaleway-backup/repository/scaleway-backup-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
-    created: 2018-07-06T11:21:41.479682678+02:00
+    created: 2018-07-06T11:32:54.72582371+02:00
     digest: ea2b12a1d7c93e675422ac5bbd1e4bab51efcde28242e086e43caa5d150157cd
     name: scaleway-backup
     urls:
@@ -17,11 +17,11 @@ entries:
     version: 0.2.0
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-07-06T11:21:41.479582358+02:00
+    created: 2018-07-06T11:32:54.725718316+02:00
     description: A Helm chart for Kubernetes
     digest: 7f82e66e4323b58f491ea2351c34c7e741a923f46366d82217c782fd6d0ff5ce
     name: scaleway-backup
     urls:
     - http://hekonsek.github.io/scaleway-backup/repository/scaleway-backup-0.1.tgz
     version: "0.1"
-generated: 2018-07-06T11:21:41.479383677+02:00
+generated: 2018-07-06T11:32:54.725520246+02:00
